@@ -2,6 +2,7 @@ package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.stereotype.Controller;
 
 @SpringBootApplication
 public class DemoApplication {
@@ -11,6 +12,9 @@ public class DemoApplication {
 		HelloWorld helloWorld = new HelloWorld();
 		helloWorld.helloPrinter();
 	}
+@Controller
+	class KsiazkaControler {
 
+}
 
 }
